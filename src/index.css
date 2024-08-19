@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Mulish', sans-serif;
+  }
+}
+
+@layer components {
+  .section-title h2 {
+    @apply text-center text-4xl text-mixDark-400 mt-8 dark:text-grays-50;
+  }
+  .section-title p {
+    @apply text-center text-base text-primary-300 p-2;
+  }
+}
